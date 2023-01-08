@@ -1,7 +1,9 @@
-const Button = () => {
+const Button = (props) => {
   return (
-    <div>
-      <button>Read more</button>
-    </div>
+    <Link to={`/blog/${props.id}`}>
+      <button className="btn">Read more</button>
+    </Link>
   );
 };
+
+export default Button;
