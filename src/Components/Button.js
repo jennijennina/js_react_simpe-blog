@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Button = (props) => {
   return (
     <Link to={`/blog/${props.id}`}>
