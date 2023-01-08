@@ -11,4 +11,4 @@ const AboutBlogData = (props) => {
     </article>
   );
 };
-export default Container;
+export default AboutBlogData;

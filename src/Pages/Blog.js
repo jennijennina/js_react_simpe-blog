@@ -1,10 +1,11 @@
 import BlogData from "../Components/blogData";
-import "./App.css";
+import AboutBlogData from "../Components/AboutBlogData";
+
 const Blog = () => {
   return (
     <section className="blog">
       {BlogData.map((item) => (
-        <Blog id={item.id} image={item.img_url} title={item.title} />
+        <AboutBlogData id={item.id} image={item.img_url} title={item.title} />
       ))}
     </section>
   );

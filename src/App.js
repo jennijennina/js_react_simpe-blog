@@ -13,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:detail" element={<PageOne />} />
       </Routes>
     </BrowserRouter>
   );
